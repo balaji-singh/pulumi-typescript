@@ -1,0 +1,7 @@
+name: s3-static-website
+runtime: nodejs
+description: a static website on aws s3 behind a public route53 hostedzone
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: https://www.pulumi.com/ai/api/project/c4846c1c-7a62-4c43-8719-0a783a4c7768.zip

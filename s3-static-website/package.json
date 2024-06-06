@@ -1,0 +1,19 @@
+{
+  "name": "s3-static-website",
+  "description": "a static website on aws s3 behind a public route53 hostedzone",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "dependencies": {
+    "@pulumi/aws": "6.13.3",
+    "@pulumi/aws-static-website": "0.1.1",
+    "@pulumi/pulumi": "^3.0.0",
+    "@types/mime": "3.0.4"
+
+  },
+  "resolutions": {
+    "@types/mime": "3.0.4"
+  }
+}
